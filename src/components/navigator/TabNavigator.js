@@ -22,9 +22,8 @@ class TabNavigator extends Component {
                         //showLabel: false
                     }}
                 >
-                    <Tab.Screen name='Promocoes' component={Feed} 
+                    <Tab.Screen name='Promoções' component={Feed} 
                         options={{
-                            
                             tabBarIcon: ({ color, size }) => (
                                 <AntDesign name="shoppingcart" color={color} size={size}  />
                             ),
@@ -41,9 +40,7 @@ class TabNavigator extends Component {
                     />
                     <Tab.Screen name='Perfil' component={Profile} 
                         options={{
-                           
-                            tabBarIcon: ({color, size, focused}) => (
-                               
+                            tabBarIcon: ({color, size, focused}) => ( 
                                 <AntDesign name="user" size={size} color={color} /> 
                             ),
                         }}

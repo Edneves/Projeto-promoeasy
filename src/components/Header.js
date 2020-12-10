@@ -8,7 +8,7 @@ class Header extends Component {
             <View style={styles.container}>
                 <View style={styles.rowContainer}>
                     <Image source={icon} style={styles.image} />
-                    <Text style={styles.title}>Promo Fácil</Text>
+                    <Text style={styles.title}>Olha a Oferta</Text>
                 </View>
             </View>
         )

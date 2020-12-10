@@ -46,7 +46,7 @@ export default function ImagePickerExample({navigation}) {
           <Text>Fotografe a Promoção</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.caixaButton} onPress={() => navigation.navigate('Promocoes')}>
+      <TouchableOpacity style={styles.caixaButton} onPress={() => navigation.navigate('Promoções')}>
           <Text>Publique a Promoção</Text>
       </TouchableOpacity>
     </View>
