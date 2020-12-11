@@ -19,12 +19,10 @@ class TabNavigator extends Component {
                     tabBarOptions={{
                         activeTintColor: '#FF0000',
                         inactiveTintColor: '#58ACFA',
-                        //showLabel: false
                     }}
                 >
                     <Tab.Screen name='Promocoes' component={Feed} 
                         options={{
-                            
                             tabBarIcon: ({ color, size }) => (
                                 <AntDesign name="shoppingcart" color={color} size={size}  />
                             ),
@@ -41,9 +39,7 @@ class TabNavigator extends Component {
                     />
                     <Tab.Screen name='Perfil' component={Profile} 
                         options={{
-                           
                             tabBarIcon: ({color, size, focused}) => (
-                               
                                 <AntDesign name="user" size={size} color={color} /> 
                             ),
                         }}
